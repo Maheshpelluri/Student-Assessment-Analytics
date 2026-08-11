@@ -1,0 +1,34 @@
+# Ignore raw datasets and exported tables
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+data/
+raw_data/
+datasets/
+
+# Power BI files and temporary artifacts
+# Note: .pbix files often contain cached student data. Include only after confirming anonymization.
+# To include .pbix in the repository, remove the following lines or keep commented.
+#*.pbix
+#*.pbit
+
+# Power BI cache/temp
+*.bin
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+*.code-workspace
+
+# Temporary Office files
+~$*
+
+# Node / Python / general
+node_modules/
+__pycache__/
