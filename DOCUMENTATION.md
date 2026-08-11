@@ -390,17 +390,5 @@ This repository does not contain real or sample student records. No student name
 
 No numerical business-impact figures (e.g., time saved, percentage improvements) are claimed, as none were measured as part of this project.
 
-## 22. Future Enhancements
 
-Not currently implemented — listed for future consideration only:
 
-- Automated LMS data ingestion if an API/connector becomes available
-- Automated date assignment
-- A standardized data-cleaning pipeline using Power Query
-- A formal star-schema data model
-- Assessment-level drill-through
-- Component-level analysis (if component marks become available)
-- Automated alerts for high non-attemptance rates
-- Historical student progress tracking
-- Trainer-specific views
-- Scheduled refresh
