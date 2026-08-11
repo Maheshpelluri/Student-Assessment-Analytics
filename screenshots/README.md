@@ -1,12 +1,21 @@
-# Screenshots
+# Screenshot index
 
-This folder is a placeholder. Dashboard page screenshots could not be automatically generated from the `.pbix` file (rendering a Power BI report requires Power BI Desktop or the Power BI service).
+This folder contains dashboard screenshots used for the repository README and documentation. The images included here are visual previews of the dashboard pages.
 
-To complete this folder, open `dashboard/Student_Assessment_Performance_Dashboard.pbix` in Power BI Desktop and export an image of each page:
+Expected image files (already attached):
 
-- `page-1-overview.png` — Assessment Overview Dashboard
-- `page-2-department-performance.png` — Department & Section Performance Dashboard
-- `page-3-student-performance.png` — Student Performance Explorer
-- `page-4-follow-up-tracker.png` — Assessment Follow-Up Tracker
+- `assessment-overview.png` — Assessment Overview Dashboard (page 1)
+- `department-performance.png` — Department & Section Performance (page 2)
+- `student-performance.png` — Student Performance Explorer (page 3)
+- `assessment-followup.png` — Assessment Follow-Up Tracker (page 4)
 
-**Before exporting or committing screenshots:** make sure no real student names, Roll Numbers, marks, or other personally identifiable information are visible in the captured images. Use anonymized/sample data if a screenshot with populated visuals is needed.
+Use these images in the main `README.md` for a visual preview of the dashboard. Example Markdown:
+
+```
+![Assessment Overview](screenshots/assessment-overview.png)
+![Department Performance](screenshots/department-performance.png)
+```
+
+Privacy reminder: Do not publish screenshots that expose real student names, Roll Numbers, email addresses, or marks. If a screenshot contains sensitive student-level data, replace or blur those values before committing.
+
+If you'd like, I can import the attached screenshots into this folder and update the README accordingly — confirm and I'll add them.

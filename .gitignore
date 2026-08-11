@@ -8,11 +8,9 @@ data/
 raw_data/
 datasets/
 
-# Power BI files and temporary artifacts
-# Note: .pbix files often contain cached student data. Include only after confirming anonymization.
-# To include .pbix in the repository, remove the following lines or keep commented.
-#*.pbix
-#*.pbit
+# Power BI files and temporary artifacts (exclude .pbix by default to avoid leaking data)
+*.pbix
+*.pbit
 
 # Power BI cache/temp
 *.bin
